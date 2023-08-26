@@ -1,0 +1,137 @@
+
+    /* background-color: aquamarine; */
+
+.menu, #menu, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.menu{
+    width:1000px;
+    /* margin-left: 350px; */
+    
+    /* background-color: rgb(218, 136, 69); */
+    border-radius: 6px;
+    background-color: yellow;
+    padding-left: 300px;
+    padding-top: 15px;
+    height: 60px;
+
+}
+.menu:before,
+.menu:{
+    content: " ";
+    display: table;
+}
+
+.menu:after{
+    clear: both;
+}
+.menu li{
+    float: left;
+    box-shadow: 1px 0 0 yellow;
+    position: relative;
+}
+.menu a{
+    float: left;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-family: Baloo;
+    text-decoration: none;
+    color: brown;
+}
+
+.menu li:hover > a{
+    color: rgb(83, 238, 90);
+    background-color: rebeccapurple;
+    
+}
+
+.menu ul {
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(139, 252, 87);
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+
+}
+
+.menu li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+.menu ul ul{
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+   
+}
+
+.menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    box-shadow: 0 1px 0 yellowgreen 0 2px 0 red;
+    
+    
+
+}
+
+.menu ul li:last-child{
+    box-shadow: none;
+}
+
+.menu ul a {
+    padding: 10;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: uppercase;
+}
+
+.button{
+    background-color: rgb(142, 252, 142);
+    color: red;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: 860px;
+    margin-top: -10px;
+
+    
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+.main{
+    display: flex;
+
+}
+.image{
+
+    margin-left: -200px;
+    border-radius: 5px;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
+}
+.imgc{
+    height: 40px;
+    width: 40px;
+    margin-left: -800px;
+}
